@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+
+/*----------------------------------------------------------Background */
+
+body {
+    background-image: url("../images/BGPicture2.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+    font-size: 12px;
+
+}
+
+section {
+    
+    margin: 0;
+
+
+}
+
+
+
+/*----------------------------------------------------------Heading */
+
+header {
+    margin: 2;
+}
+
+.heading-title {
+    margin-left: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 2em;
+}
+
+.heading-tab {
+    margin-left: 2px;
+    margin-top: 10px;
+    padding-left: 8%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.person-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 0px;
+    margin-bottom: 1px;
+    color: #ffffff;
+    padding-top: 5%;
+   
+}
+
+.person-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 0px;
+    color: #ffffff;
+    padding-bottom: 10%;
+   
+}
+
+
+
+
+
+
+@media (min-width: 1235px) {
+    .logo {
+    background: url("../images/Khalidv2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 220px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 15%;
+    
+    
+    
+    } 
+}
+
+@media (min-width: 1235px) {
+.site-sidebar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    overflow: none;
+    z-index: 2;
+    width: 25%;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: rgba(145,13,13,.8);
+   
+    }
+}
+
+@media (max-width: 1235px) {
+.header-details {
+    padding: 25px;
+    display: none;
+    
+    }
+}
+   
+
+
+
+@media (min-width: 1235px) {
+.footer-details {
+    padding: 25px;
+    display: none;
+    
+    }
+}
+
+
+
+
+
+
+
+.site-siderbar-inner {
+    background-color: rgba(145,13,13,.8);
+}
+
+
+
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
+
+.person .person-avatar .avatar {
+
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 280px;
+    min-width: 280px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+
+.site-sidebar .person {
+    text-align: center;
+}
+
+span {
+    color: #ffffff;
+}
+
+.color-home, .color-portfolio, .color-skills, .color-contact {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.list-details {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.menuitem a i {
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+}
+
+
+.row-table {
+    display: table;
+    
+}
+
+
+.home-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+    font-size: 20px;
+    padding-left: 25%;
+    padding-top: 10%;
+    padding-bottom: 10px;
+    padding-right: 10%;
+}
+
+.home-subheading {
+
+    padding-left: 25%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+}
+
+
+.shome-section-inner {
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+
+.menuitem a {
+    text-decoration: none;
+}
+
+.list-inline {
+    display: inline;
+}
+
+
+
+.social-links a i {
+    width: 30px;
+    height: 25px;
+    font-size: 13px;
+    line-height: 5px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.social-links-header a i {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 5px;
+    text-align: center;
+    color: #fafafa;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40%;
+}
+
+
+
+
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.skills-bars {
+    padding-left: 30%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.skills-heading {
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+.progress {
+    
+    height: 25px;
+    margin-bottom: 8px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 500;
+    padding: 3px 30px 3px 25px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+    font-size: 15px;  
+}
