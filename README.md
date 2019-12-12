@@ -26,3 +26,10 @@ Contact form:
 3.	Input correct data and you should see that it sends the request correctly. 
 My Website works different depending whether if its displayed on mobile or desktop. Main difference is my profile image that it disappears on a mobile same as the side bar. 
 The link for the social media are also included with text on mobile mode.  
+
+Credits
+
+Media
+The photos used in this site were obtained from my Instagram profile and Google search
+Acknowledgements
+I received inspiration for this project from https://jtom.me/skills-and-offer/
